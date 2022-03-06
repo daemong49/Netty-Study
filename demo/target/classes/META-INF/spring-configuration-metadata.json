@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "netty",
+      "type": "com.example.demo.Config.NettyProperties",
+      "sourceType": "com.example.demo.Config.NettyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "netty.backlog",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.Config.NettyProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "netty.boss-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.Config.NettyProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "netty.connection-value",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.Config.NettyProperties"
+    },
+    {
+      "name": "netty.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.demo.Config.NettyProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "netty.tcp-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.Config.NettyProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "netty.worker-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.Config.NettyProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
